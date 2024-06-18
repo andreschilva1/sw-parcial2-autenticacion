@@ -5,6 +5,8 @@ import  db  from './database/db.js'; //importar la conexion a la base de datos
 import routes , {routeMappings} from './routes/index.routes.js'; //importar todas las rutas
 import  http  from 'http';
 import cors from 'cors';
+import Mantenimiento from "./models/mantenimiento.js";
+
 
 class AppServer {
     
